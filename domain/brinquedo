@@ -1,0 +1,9 @@
+from dataclasses import dataclasses
+
+@dataclasses
+class Brinquedo:
+    id: int
+    nome: str
+    categoria: str
+    faixa_etaria_minima: int
+    disponivel: bool = True
